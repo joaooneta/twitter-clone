@@ -6,7 +6,8 @@ Projeto simples de clone do Twitter utilizando Stack Mern(MongoDB, Express, Reac
 
 ## 🚀 Uso
 
-1. Crie um banco de dados no **MongoDB Atlas** e obtenha sua **URI do MongoDB**.  
+1. Crie um banco de dados no **[MongoDB Atlas](https://www.mongodb.com/atlas)**.  
+2. Copie a sua **URI de conexão** do MongoDB.
 
 ---
 
@@ -18,7 +19,7 @@ Projeto simples de clone do Twitter utilizando Stack Mern(MongoDB, Express, Reac
 ```env
 NODE_ENV=development
 PORT=5000
-MONGO_URI=sua_uri_do_mongodb
+MONGO_URI=SUA_URI_DO_MONGO_DB
 JWT_SECRET=abc123
 ```
 
@@ -38,6 +39,20 @@ npm install
 ```
 
 ---
+
+## 🌱 Seeder (Importação de Dados)
+
+Execute o seeder com:
+
+```bash
+npm run data:import
+```
+
+Ou remova os dados com:
+
+```bash
+npm run data:destroy
+```
 
 ## ▶️ Execução do Projeto
 
