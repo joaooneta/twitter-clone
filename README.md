@@ -22,7 +22,7 @@ MONGO_URI=sua_uri_do_mongodb
 JWT_SECRET=abc123
 ```
 
-> ⚠️ Altere os valores de `JWT_SECRET` e `PAGINATION_LIMIT` conforme desejar.
+> ⚠️ Altere os valores de `JWT_SECRET` conforme necessário.
 
 ---
 
